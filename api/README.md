@@ -14,8 +14,8 @@ LangChain Chatbot is a simple conversational agent built with Flask and LangChai
 - **Request Payload:**
   ```json
   {
-    "message": "User's input message"
-  }
+    "message": "Query"
+  },
   ```
 - **Response:**
   ```json
@@ -28,7 +28,7 @@ LangChain Chatbot is a simple conversational agent built with Flask and LangChai
 
 1. **Install Dependencies:**
    ```bash
-   pip install flask langchain
+   pip install -r requirements.txt
    ```
 
 2. **Run the Flask App:**
